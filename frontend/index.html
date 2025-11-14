@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arecanut Leaf Disease Detector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌿 Arecanut Leaf Disease Detector</h1>
+
+    <div class="upload-box">
+      <input type="file" id="fileInput" accept="image/*" />
+      <p id="fileName">No file selected</p>
+
+      <!-- preview area -->
+      <div class="preview-box" id="previewBox" aria-hidden="true">
+        <img id="previewImage" src="" alt="Selected image preview" />
+      </div>
+
+      <button id="uploadBtn">Upload & Predict</button>
+    </div>
+
+    <div class="result-box" id="resultBox" aria-live="polite">
+      <h2>Prediction Result</h2>
+      <p id="resultText">No prediction yet</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

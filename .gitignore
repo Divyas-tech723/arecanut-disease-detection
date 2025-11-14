@@ -1,0 +1,21 @@
+# Python cache
+_pycache_/
+*.pyc
+
+# virtual environment (do NOT upload)
+arecanut_env/
+
+# datasets (large files)
+dataset/
+
+# trained model files
+*.h5
+*.hdf5
+*.ckpt
+
+# IDE configs
+.vscode/
+
+# OS garbage
+.DS_Store
+Thumbs.db

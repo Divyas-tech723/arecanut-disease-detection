@@ -1,0 +1,20 @@
+# Core libraries
+numpy
+pandas
+matplotlib
+scikit-learn
+opencv-python
+
+# Deep learning
+tensorflow
+keras
+
+# Image preprocessing
+Pillow
+
+# Backend
+fastapi
+uvicorn
+
+# (Optional) for API testing and debugging
+requests
